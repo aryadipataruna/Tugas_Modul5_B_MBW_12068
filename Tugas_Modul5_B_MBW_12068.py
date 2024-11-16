@@ -5,8 +5,7 @@ from PIL import Image
 import os
 
 # Model path
-model_directory = r'C:\Users\Lenovo\Downloads\Introduction to Deep Learning (Praktek)\Introduction to Deep Learning (Praktek)'
-model_path = os.path.join(model_directory, 'best_model.pkl')
+model_path = 'best_model.pkl'
 
 # Load the model
 if os.path.exists(model_path):
